@@ -1,6 +1,6 @@
 # RAG_API Question Answering System using FastAPI
 
-This is a FastAPI application that provides a question-answering system using a pre-trained model (`distilbert-base-uncased-distilled-squad`) and fuzzy matching for document retrieval. `distilbert-base-uncased-distilled-squad` is a pre-trained model from Hugging Face. It is a distilled version of BERT (Bidirectional Encoder Representations from Transformers) fine-tuned on the SQuAD (Stanford Question Answering Dataset) dataset. This model is designed for question-answering tasks.
+This is a FastAPI application that provides a question-answering system using a pre-trained model ([`distilbert-base-uncased-distilled-squad`](https://huggingface.co/distilbert/distilbert-base-uncased-distilled-squad)) and fuzzy matching for document retrieval. `distilbert-base-uncased-distilled-squad` is a pre-trained model from Hugging Face. It is a distilled version of BERT (Bidirectional Encoder Representations from Transformers) fine-tuned on the SQuAD (Stanford Question Answering Dataset) dataset. This model is designed for question-answering tasks.
 
  The application includes a web interface for inputting questions and receiving answers.
 
