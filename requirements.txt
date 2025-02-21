@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+requests
+transformers
+tensorflow
+fuzzywuzzy
+python-Levenshtein
+python-multipart
+tf-keras
