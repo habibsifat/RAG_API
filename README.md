@@ -16,7 +16,7 @@ This is a FastAPI application that provides a question-answering system using a 
 ### Steps to Run the Application
 
 1. **Clone the Repository**:
-     git clone https://github.com/habibsifat/RAG_API.git
+     git clone https://github.com/habibsifat/RAG_API.git<br>
      cd RAG_API
 2. **Build and Run the Docker Containers**:
      docker compose build
@@ -27,9 +27,10 @@ This is a FastAPI application that provides a question-answering system using a 
 
 
 **Files Description**
-     Api.py : Main FastAPI application file.
-     take_input_web.py : Web input form application file.
-     requirements.txt : List of dependencies.
-     Dockerfile : Dockerfile to build the Docker image.
-     docker-compose.yml : Docker Compose file to manage multiple services.
-     new_data.txt : Data file for document retrieval.
+
+     Api.py : Main FastAPI application file.<br>
+     take_input_web.py : Web input form application file.<br>
+     requirements.txt : List of dependencies.<br>
+     Dockerfile : Dockerfile to build the Docker image.<br>
+     docker-compose.yml : Docker Compose file to manage multiple services.<br>
+     new_data.txt : Data file for document retrieval.<br>
