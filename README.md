@@ -27,9 +27,9 @@ This is a FastAPI application that provides a question-answering system using a 
 
 
 **Files Description**
-**Api.py**: Main FastAPI application file.
-**take_input_web.py**: Web input form application file.
-**requirements.txt**: List of dependencies.
-**Dockerfile**: Dockerfile to build the Docker image.
-**docker-compose.yml**: Docker Compose file to manage multiple services.
-**new_data.txt**: Data file for document retrieval.
+     Api.py : Main FastAPI application file.
+     take_input_web.py : Web input form application file.
+     requirements.txt : List of dependencies.
+     Dockerfile : Dockerfile to build the Docker image.
+     docker-compose.yml : Docker Compose file to manage multiple services.
+     new_data.txt : Data file for document retrieval.
