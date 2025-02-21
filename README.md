@@ -1,8 +1,8 @@
 # RAG_API Question Answering System using FastAPI
 
-This is a FastAPI application that provides a question-answering system using a pre-trained model and fuzzy matching for document retrieval. The application includes a web interface for inputting questions and receiving answers.
+This is a FastAPI application that provides a question-answering system using a pre-trained model (<span style="color:red">distilbert-base-uncased-distilled-squad</span>) and fuzzy matching for document retrieval. <span style="color:red">distilbert-base-uncased-distilled-squad</span> is a pre-trained model from Hugging Face. It is a distilled version of BERT (Bidirectional Encoder Representations from Transformers) fine-tuned on the SQuAD (Stanford Question Answering Dataset) dataset. This model is designed for question-answering tasks.
 
-
+ The application includes a web interface for inputting questions and receiving answers.
 
 
 ## Setup and Running the Application
@@ -25,7 +25,7 @@ This is a FastAPI application that provides a question-answering system using a 
     Web input form: http://127.0.0.1:8001
 
 
-**Files Description**
+### Files Description
 | File/Folder            | Description                              |
 |------------------------|------------------------------------------|
 | `Api.py`               | Main FastAPI application file            |
